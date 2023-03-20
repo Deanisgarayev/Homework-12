@@ -6,7 +6,7 @@ public class Book {
     public Book(String name, String author, int dateOfPublication) {
         this.name = name;
         this.author = author;
-        this. dateOfPublication = dateOfPublication;
+        this.dateOfPublication = dateOfPublication;
     }
 
     public String getName() {
@@ -21,7 +21,7 @@ public class Book {
         return this.dateOfPublication;
     }
 
-    public void setDateOfPublication(int date) {
+    public void setDateOfPublication(int dateOfPublication) {
         this.dateOfPublication = dateOfPublication;
     }
-    }
+}
