@@ -14,4 +14,22 @@ public class Author {
     public String getLastName() {
         return this.lastName;
     }
+
+    @Override
+    public String toString() {
+        return "Имя " + firstName + " Фамилия " + lastName;
+    }
+
+    @Override
+    public boolean equals(Object other) {
+        if (getClass() != getClass())
+        return false;
+        Author firstAuthor = (Author) other;
+        return firstName.equals(firstAuthor.firstName);
+    }
+
+    @Override
+    public int hashCode() {
+        return java.util.Objects.hash(firstName);
+    }
 }
