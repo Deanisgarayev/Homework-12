@@ -43,5 +43,5 @@ public class Book {
     public int hashCode() {
         return java.util.Objects.hash(name);
     }
-    }
+}
 

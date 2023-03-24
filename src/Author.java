@@ -3,8 +3,8 @@ public class Author {
     private String lastName;
 
     public Author(String firstName, String lastName) {
-    this.firstName = firstName;
-    this.lastName = lastName;
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
     public String getFirstName() {
@@ -23,7 +23,7 @@ public class Author {
     @Override
     public boolean equals(Object other) {
         if (getClass() != getClass())
-        return false;
+            return false;
         Author firstAuthor = (Author) other;
         return firstName.equals(firstAuthor.firstName);
     }
